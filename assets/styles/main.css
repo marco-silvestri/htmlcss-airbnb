@@ -11,6 +11,9 @@ body {
   background-color: #32a852;
 }
 
+
+/*Wrappers styling */
+
 .main-destination-wrap {
   position: absolute;
   height: 100vh;
@@ -34,10 +37,14 @@ body {
   height: 33.3%;
 }
 
+/* Overlay styling */
+
 .destination img {
   height: 100%;
   opacity: .8;
 }
+
+/* Destination text styling */
 
 .destination span {
   position: absolute;
@@ -48,6 +55,8 @@ body {
   font-size: 3vw;
   font-family: 'Noto Sans', monospace;
 }
+
+/*Interaction styling */
 
 .destination:hover{
   background-color: #000;
