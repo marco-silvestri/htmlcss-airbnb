@@ -11,6 +11,9 @@ body {
   background-color: #32a852;
 }
 
+
+/*Wrappers styling */
+
 .main-destination-wrap {
   position: absolute;
   height: 100vh;
@@ -19,7 +22,7 @@ body {
   background-color: #FFF;
 }
 
-/*
+/* debug 
 .main-destination-wrap .destination:first-of-type{
   border-top: 1px solid black;
 }
@@ -34,10 +37,14 @@ body {
   height: 33.3%;
 }
 
+/* Overlay styling */
+
 .destination img {
   height: 100%;
   opacity: .8;
 }
+
+/* Destination text styling */
 
 .destination span {
   position: absolute;
@@ -48,6 +55,8 @@ body {
   font-size: 3vw;
   font-family: 'Noto Sans', monospace;
 }
+
+/*Interaction styling */
 
 .destination:hover{
   background-color: #000;
