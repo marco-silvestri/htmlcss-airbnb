@@ -46,9 +46,53 @@ body {
   font-family: 'Noto Sans', monospace;
 }
 
+
 /*Interaction styling */
 
 .destination:hover{
   background-color: #000;
-  opacity: .5;
+  opacity: .9;
+}
+
+/* CSS Logic:
+Check the arbitrary attribute data-country and return a conditional output
+*/
+
+.destination span[data-country="italy"]::after {
+  display: block;
+  background-image: url('../img/flags/ita_flag.png');
+  content: '';
+  position: relative;
+  left: 50%;
+  transform:translateX(-50%);
+  height: 50px;
+  width: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.destination span[data-country="denmark"]::after {
+  display: block;
+  background-image: url('../img/flags/den_flag.png');
+  content: '';
+  position: relative;
+  left: 50%;
+  transform:translateX(-50%);
+  height: 50px;
+  width: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.destination span[data-country="japan"]::after {
+  display: block;
+  background-image: url('../img/flags/jap_flag.png');
+  content: '';
+  position: relative;
+  left: 50%;
+  transform:translateX(-50%);
+  height: 50px;
+  width: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
