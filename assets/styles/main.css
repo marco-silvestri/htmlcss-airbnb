@@ -30,6 +30,7 @@ body {
 .destination img {
   display: block;
   height: 100vh;
+  width: 100vw;
   opacity: .8;
 }
 
